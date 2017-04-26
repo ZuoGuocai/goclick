@@ -21,10 +21,10 @@ func main() {
 	 c := exec.Command("cls")
 	 c.Run()
      fmt.Println("")
-     fmt.Println(("== ^_^ Auto Click the WebPage for My JianShu Blog... =="))
+     fmt.Println(("== ^_^ Auto Click the WebPage for JianShu Blog... =="))
 	 fmt.Println("")
-	 for a := 0; a < 2; a++ {
-	  webbrowser.Open("http://www.jianshu.com/p/2f6dbbfc95f1")
+	 for a := 0; a < 10 ;a++ {
+	  webbrowser.Open("http://www.jianshu.com/p/XXXXXXXX")
       fmt.Printf("The %d time click done...\n", a)
       
       time.Sleep(time.Second * 2)  
@@ -44,7 +44,5 @@ func main() {
 	
 
 
-  //,">","C:\\Users\\icai\\Desktop\a.txt" 
-
-
+  
    
